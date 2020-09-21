@@ -1,6 +1,6 @@
 close all;
 clear all;
-index_no=[1 6 0 1 9 8];
+index_no=[1 1 1 1 1 1]; 
 %constructing Filter parameters using index number
 A_p=0.05+(0.01*index_no(4));                                    %maximum Passband attenuation
 A_a=40+index_no(5);                                             %minimum stopband attenuation
